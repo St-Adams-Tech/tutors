@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background:orange;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    background-color:white;
+    height: 750px;
+    margin:20% auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+section{
+    padding-top: 0%;
+    text-align: right;
+    margin-top: 0%;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    background-image: url(IMAGES/Capture2.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: right;
+
+}
+div img{
+    width: 6%;
+    height: 10%;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+ul li {
+    list-style: none;
+    opacity: .8;
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 60%;
+    margin-top: 50px;
+    line-height: 0px;
+
+    
+}
+
+ul li a{
+    text-align: right;
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: rgb(47, 130, 255);
+}
+div a input{
+    width: 75px;
+    height: 30px;
+    border-radius: 11px;
+    background-color:orange;
+    text-align: center;
+    
+}
+.layout{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    background-color: cornflowerblue;
+}
+.slidershow{
+    width: 500PX;
+    height: 300px;
+    overflow: hidden;
+}
+.middle{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-30%,-30%);
+}
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    transform: translateX(-30%);
+    display: flex;
+}
+.bar{
+    width: 30px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bar:hover{
+    background:red;
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 300%;
+    height: 100%;
+    display: flex;
+
+}
+.slide img{
+    width: 30%;
+    height: 30%;
+    margin-top: 18%;
+}
